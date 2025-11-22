@@ -1,0 +1,8 @@
+# Core dependencies
+llama-cpp-python>=0.2.23  # Interface Python pour les modèles GGUF (compatible avec LLaMA, Mistral, etc.)
+
+# Note: Le modèle de langue (ex: TinyLlama-1.1B-Chat-v1.0.Q4_K_M.gguf) doit être téléchargé séparément
+# et placé dans le dossier 'models/' du projet.
+
+# Pour installer ces dépendances :
+# pip install -r requirements.txt

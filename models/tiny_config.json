@@ -1,0 +1,5 @@
+{
+  "model_path": "models/TinyLlama-1.1B-Chat-v1.0.Q4_K_M.gguf",
+  "n_ctx": 2048,
+  "n_threads": 5
+}
