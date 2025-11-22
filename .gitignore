@@ -47,13 +47,19 @@ ENV/
 ehthumbs.db
 Thumbs.db
 
-# Model files
-models/*.gguf
-models/*.bin
-models/*.h5
-models/*.pt
-models/*.pth
-models/*.safetensors
+# Model files - exclude all GGUF and other model files
+models/**/*.gguf
+models/**/*.bin
+models/**/*.h5
+models/**/*.pt
+models/**/*.pth
+models/**/*.safetensors
+models/**/*.safetensors.index.json
+models/**/*.index.json
+models/**/*.json
+
+# Exclude the entire other_models directory
+models/other_models/
 
 # Large data files
 *.npy
